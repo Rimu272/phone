@@ -23,7 +23,7 @@ font-family: 'Source Sans Pro';
     width: 100%;
 }
 .main-box .row {
-background :url(../image/background2.png);
+background :url(background2.png);
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -58,13 +58,13 @@ padding-top: 10px;
 
 }
 .main-box ul li:hover {
-background :url(../image/bottom.png);
+background :url(bottom.png);
 background-position: bottom;
 background-repeat: no-repeat; 
 
 }
 .main-box ul li:first-child {
-background :url(../image/bottom.png);
+background :url(bottom.png);
 background-position: bottom;
 background-repeat: no-repeat; 
 padding-left: 20px;
