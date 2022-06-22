@@ -85,20 +85,22 @@ padding-top: 80px;
 
 
 }
-.text.col-6{
-   
+.text{
+   /* width: 80%;
+   margin: 0 auto; */
 }
+
+ 
 .text .col-6 .text-right {
     width: 48%;
     float: right;
-   
     padding-top: 30px;
 
 
 }
 .text h4{
     color: rgb(0, 142, 214);
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     padding-top: 30px;
 }
 .text h1{
@@ -300,8 +302,228 @@ float: left;
 .last .row .container .col-6 .last-left h1{}
 .last .row .container .col-6 .last-left img{}
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+body{
+    background-color: white;
+}
+    .main-box .row .container .col-6 .manu{
+        width: 87%;
+        font-size: 14px;
+    }
+.main-box .row .container .col-6 .logo{
+    width: 6%;
+    margin-right: 6px;
+
+}
+.main-box .row .container {
+    margin: 0 auto;
+    width: 90%;
+    height: 350px;
+    }
+
+    .text .col-6 .text{
+    width: 100%;
+    height: 100%;
+    /* margin: 0 auto; */
+    position: relative;
+    }
+    .text .col-6 .text-right {
+        /* width: 25%; */
+        /* float: right; */
+        /* padding-top: 30px; */
+        padding-top: 0px;
+    
+}
 
 
+
+.text .col-6 .text-right img{
+    height: 100%;
+    width: 100%;
+    /* float: ; */
+    /* position: relative; */
+    padding-top: -60px;
+
+}  
+.text .col-6 .text .text-left{
+    /* position: relative; */
+    width: 100px;
+height: 100px;
+
+/* padding-right: 500px; */
+}
+.text h4{
+    width: 500px;
+font-size: small;
+/* padding-right: 5s0px; */
+/* padding-top: -10px; */
+
+}
+.text h1{
+    width: 500px;
+    position: absolute;
+    font-size: 45px;
+    /* padding-top: 50px; */
+}
+.text p{
+    /* float: left; */
+    width: 90%;
+    text-align: justify;
+    font-size: large;
+    padding-top: 210px;
+    position: absolute;
+}
+    .text .btn1{
+    /* position: absolute; */
+    /* padding-top: 500px; */
+
+    }
+    .btn2{
+        background-color: white;
+        border: 1px solid black;
+
+    }
+    .button{
+        width: 500px;
+        /* height: 200px; */
+        padding-top: 300px;
+        display: block;
+    }
+    .comment-section{
+        padding-top: 150px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .icon-section .row .container .col-3{
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 25px;
+        height: 200px;
+    }
+    .icon-section .row .container .col-3:last-child{
+        /* padding-bottom 50px; ; */
+    }
+    .icon-section .row .container .col-3 p {
+         text-align: center;
+       /* height: 600px;*/
+        width: 50%; 
+        margin: 0 auto;
+
+    }
+    .middle .row {
+        width: 100%;
+        height: 60px;
+
+    }
+    .middle .row .container{
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+        height: 800px;
+        /* background-color: white; */
+
+
+    }
+    .middle .row .container .col-6 .middle-left img {
+    /* float: left; */
+    /* position: absolute; */
+    /* padding-bottom: 100px; */
+    padding-left: 0px;
+    /* background-color: white; */
+    }
+    .middle .row .container .col-6 .middle-right h5{
+        position: absolute;
+        /* background-color: aqua; */
+        padding-top: 80px;
+    }
+    .middle .row .container .col-6 .middle-right h1{
+        position: absolute;
+        padding-top: 100px;
+        width: 400px;
+    }
+    .middle .row .container .col-6 .middle-right p{
+        position: absolute;
+        padding-top: 170px;
+    }
+    .middle .row .container .col-6 .middle-right img{
+        position: absolute;
+        padding-top: 150px;
+        /* float: left; */
+        padding-left: 0px;
+        /* padding-left: 50px; */
+    }
+    .middle .row .container .col-6 .middle-right .middle-part-bottom{
+        padding-top: 240px;
+    }
+    .middle .row .container .col-6 .middle-right span{
+        position: absolute;
+        padding-left: 30px;
+    }
+    .middle .row .container .col-6 .middle-right .middle-part-bottom img{
+        padding-top: 5px;
+    }
+    
+
+    .last{
+        height: 700px;
+        width: 100%;
+        /* background-color: #f2f2f2; */
+        margin-top: 700px;
+    }
+   
+    .last .last-right{
+width: 100%;
+display: block;
+    }
+/* .last .row .container .col-6 .last-left {
+background-color: red;
+height: 200px;
+width: 100%;
+padding-top: 0000px;
+
+} */
+.last .row .container .col-6 .last-left{
+width: 100%;
+padding-top: -100px;
+/* height: 100vh; */
+/* background-color: #008cd3; */
+ }
+.last .row .container .col-6 .last-right{
+width: 100%;
+/* padding-right: 80px ; */
+}
+.last .row .container .col-6 .last-right img{
+    height: 100%;
+    width: 100%;
+
+}
+.last .row .container .col-6 .last-left h5{
+    /* padding-top: 20px; */
+}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* .main-box .row .container .col-6 .manu{
+        width: 82%;
+        font-size: 11px;
+    }
+.main-box .row .container .col-6 .logo{
+    width: 3%;
+    margin-right: 6px;
+
+} */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
 
 
 
